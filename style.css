@@ -1,0 +1,127 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: #6d1ed4;
+}
+
+.nav-bar {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6d1ed4;
+    border: 1px solid;
+    border-bottom: 1px solid rgba(147, 149, 152, .3);
+}
+
+.first-container img {
+    width: 22rem;
+    height: 2.8rem;
+    padding: 1.5rem;
+}
+
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding: 15px;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+.inner-main-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material-container {
+    width: 50%;
+    flex-direction: column;
+}
+
+.material-inner-container {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 3em;
+    color: white;
+}
+
+.para {
+    font-size: 1.3em;
+    color: white;
+    line-height: 1.5em;
+}
+
+.main-btn {
+    padding: 1.2rem 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(129, 93, 255);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.img-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.img-container img {
+    min-width: 30px;
+    min-height: 30px;
+}
+
+/* //////////////////responsiveness/////////////// */
+@media(max-width:427px) {
+    .first-container img {
+        width: 18rem;
+        height: 2.1rem;
+        padding: 1.5rem;
+    }
+}
+
+@media(max-width:330px) {
+    .first-container img {
+        width: 12rem;
+        height: 2rem;
+    }
+
+}
