@@ -120,11 +120,27 @@ li {
 }
 
 /* //////////////////responsiveness/////////////// */
+@media(max-width:527px) {
+    .img-container {
+        width: 100%;
+    }
+
+    .material-container {
+        width: 100%;
+    }
+}
+
 @media(max-width:427px) {
     .first-container img {
         width: 18rem;
         height: 2.1rem;
         padding: 1.5rem;
+    }
+}
+
+@media(max-width:442px) {
+    .heading {
+        font-size: 2em;
     }
 }
 
