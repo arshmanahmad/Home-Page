@@ -15,12 +15,15 @@
                 <img src="./assets/Zelle-logo-tagline-horizontal-white-v2_1_0.png" alt="">
             </div>
             <div class="second-container">
-                <ul>
-                    <li><a href="">HOW IT WORKS</a></li>
-                    <li><a href="">GET STARTED</a></li>
-                    <li><a href="">SAFETY EDUCATION</a></li>
-                    <li><a href="">FAQ</a></li>
-                </ul>
+                <div class="nav-bar-inner">
+                    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+                    <ul class="nav-links">
+                        <li><a href="">HOW IT WORKS</a></li>
+                        <li><a href="">GET STARTED</a></li>
+                        <li><a href="">SAFETY EDUCATION</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
             </div>
 
         </nav>
@@ -47,6 +50,12 @@
             </div>
         </div>
     </div>
+    <script class="src">
+        function toggleMenu() {
+            var navBar = document.querySelector('.nav-bar');
+            navBar.classList.toggle('open');
+        }
+    </script>
 </body>
 
 </html>
